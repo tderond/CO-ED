@@ -9,3 +9,10 @@ Annotation tables are based on data from MIBiG (http://mibig.secondarymetabolite
 
 If you extract the files in uniprot_annotated_enzyme_tables.zip, you can run the majority of the "main" Jupyter notebook (up until the "all of uniprot" section) as-is.
 The "preparing_data" notebook may be used if you want to want to generate the most up-to-date tables of annotated enzymes, or if you wish to run CO-ED on all proteins in uniprot. You will need to download some files from the latest releases of MIBiG, BRENDA and Uniprot as described in the "preparing_data" notebook.
+
+References:
+- Kautsar SA, et al. (2020) MIBiG 2.0: a repository for biosynthetic gene clusters of known function. Nucleic Acids Res 48(D1):D454–D458.
+- Jeske L, Placzek S, Schomburg I, Chang A, Schomburg D (2019) BRENDA in 2019: a European ELIXIR core data resource. Nucleic Acids Res 47(D1):D542–D549.
+- UniProt Consortium T (2018) UniProt: the universal protein knowledgebase. Nucleic Acids Res 46(5):2699.
+- Eddy SR (2011) Accelerated profile HMM searches. PLoS Comput Biol 7(10):e1002195.
+- El-Gebali S, et al. (2019) The Pfam protein families database in 2019. Nucleic Acids Res 47(D1):D427–D432.
