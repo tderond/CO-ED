@@ -3,7 +3,7 @@
 This repository accompanies a manuscript by Tristan de Rond, Julia E. Asay and Bradley S. Moore
 
 The notebooks were written in Python v3.6.10, Jupyter notebook v6.0.3, pandas v1.0.3, networkx v2.4, requests 2.23, json v2.0.9
-The workflow depends on PfamScan (pfam_scan.pl), which in turn depends on HMMER v3
+The workflow depends on PfamScan (pfam_scan.pl), which in turn depends on HMMER v3 (http://hmmer.org/) and Pfam-A (https://pfam.xfam.org/)
 
 Annotation tables are based on data from MIBiG (http://mibig.secondarymetabolites.org), BRENDA (http://www.brenda-enzymes.org), and Uniprot (http://www.uniprot.org)
 
