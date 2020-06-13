@@ -1,6 +1,7 @@
 # CO-ED (Co-Occurrence of Enzyme Domains)
 
 This repository accompanies a manuscript by Tristan de Rond, Julia E. Asay and Bradley S. Moore
+Our work on this was supported by National Institutes of Health award F32GM129960 
 
 The notebooks were written in Python v3.6.10, Jupyter notebook v6.0.3, pandas v1.0.3, networkx v2.4, requests 2.23, json v2.0.9
 The workflow depends on PfamScan (pfam_scan.pl), which in turn depends on HMMER v3 (http://hmmer.org/) and Pfam-A (https://pfam.xfam.org/)
