@@ -1,0 +1,11 @@
+This file described how the set of enzymatic domains in `pfamID_to_name_desc_longdesc.tsv` was curated. We realize the domain curation process is somewhat subjective, and hence the CO-ED analysis Jupyter notebook allows for facile re-analysis with different sets of domains by editing the `pfamID_to_name_desc_longdesc.tsv` file.
+
+A set of Pfam domains was compiled by taking all domains annotated for entries in Uniprot (www.uniprot.org) that are also annotated in MIBiG (http://mibig.secondarymetabolites.org, all proteins), BRENDA (www.brenda-enzymes.org, all proteins), or in pathway.txt. Non-catalytic domains were removed. For pseudo-catalytic domains that together catalyze one reaction (often detected by performing CO-ED analysis on all proteins in Uniprot and finding domains that co-occur with another a high percentage of the time), the more abundant domain was included. Overlapping domains with similar catalytic functions are often members of the same Pfam “Clan”, causing only the best-matching domain to be annotated, but in cases where both are annotated in a high proportion of proteins in Uniprot, only one of the proteins was included in our set.
+Lastly, many enzymatic domains acting on macromolecules and domains with unknown functions were annotated as such, and the analysis can be run with or without their consideration. Annotation categories are as follows:
+- “m”: nucleases, topoisomerases, transposases, helicases, polymerases, proteases, protein kinases and phosphatases, ATP-dependent transporters
+- “s”: glycosyltransferases, glycosylhydrolases (cellulases, amylases, etc.)
+- “e”: enzymes in electron transport chains (oxidative phosphorylation, photosynthesis, etc.)
+- “u”: domains with unknown function, but commonly found with other enzymatic domains
+- “y”: all other enzymes, but only those transporters that couple transport to a reaction besides ATP hydrolysis
+- domain not in `pfamID_to_name_desc_longdesc.tsv`: determined to either not be catalytic or to comprise a catalytic domain together with a domain annotated in one of the above categories).
+For the analyses shown in the Jupyter notebook, annotation categories “y”, “m”, “s” and “e” were considered, totaling 1745 domains.
