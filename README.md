@@ -6,6 +6,7 @@ Our work on CO-ED was supported by National Institutes of Health (NIH/NIGMS) awa
 
 
 The notebooks were written using Python v3.6.10, Jupyter notebook v6.0.3, pandas v1.0.3, networkx v2.4, requests 2.23, json v2.0.9
+2020-09-04: IF YOU USE PANDAS v1.1.1, PLEASE NOTE THIS BUG AND WORKAROUND: https://github.com/tderond/CO-ED/issues/1#issuecomment-687508636
 
 The workflow depends on PfamScan (http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/), which in turn depends on HMMER v3 (http://hmmer.org/) and Pfam-A (https://pfam.xfam.org/)
 
